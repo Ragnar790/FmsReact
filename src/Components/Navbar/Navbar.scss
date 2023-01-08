@@ -1,0 +1,18 @@
+@import "./../../custom.scss";
+
+.navbar_trukkerlogo {
+  height: 2rem !important;
+  width: 10rem !important;
+}
+.navbar_container {
+  .nav-item.dropdown {
+    margin-left: 41rem;
+  }
+  .dropdown-menu[data-bs-popper] {
+    left: -5rem !important;
+  }
+  .nav-link .active {
+    color: orange;
+    font-weight: bold;
+  }
+} 
